@@ -1,0 +1,3 @@
+service{
+ "demo"."demo::Cliente.Clientes" as "Cliente";
+}

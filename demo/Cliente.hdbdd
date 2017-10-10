@@ -1,0 +1,18 @@
+namespace demo;
+@Schema : 'demo'
+context Cliente
+{
+@Catalog.tableType: #COLUMN
+        entity Clientes {
+            key Id: Integer;
+                TipoDocumento: String(20);
+                NroDocumento: String(20);
+                Nombre: String(50);
+                Apellidos: String(100);
+                FechaNacimiento: String(12);
+                Direccion: String(250);
+                Correo: String(250);
+                Celular: String(20);
+                Empresa: String(100);
+        };
+};
